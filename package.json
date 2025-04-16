@@ -7,10 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build:content": "contentlayer2 build",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && wrangler pages dev",
-    "deploy": "npm run pages:build && wrangler pages deploy"
+    "build:content": "contentlayer2 build"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.5",
