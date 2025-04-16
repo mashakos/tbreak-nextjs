@@ -3,6 +3,22 @@
 @plugin '@tailwindcss/typography';
 @plugin '@tailwindcss/aspect-ratio';
 
+@font-face {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/montserrat/montserrat-semibold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: bauziet;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/bauziet/bauziet-norm-semibold-webfont.woff2") format("woff2");
+}
+
 @theme {
   --font-sans: montserrat, sans-serif;
   --font-bauziet: bauziet, sans-serif;
