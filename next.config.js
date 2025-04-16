@@ -2,7 +2,7 @@ const { withContentlayer } = require('next-contentlayer2')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  output: 'export',
   reactStrictMode: true,
   images: {
     unoptimized: true,
